@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BystemlinkMacSFont, 'Segoe UI', Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* background: linear-gradient( rgb(0,140,225), rgb(19, 72, 233)); */
+    background-color: rgb(231, 231, 231);
+}
+
+.login {
+    margin-top: 100px;
+    margin-left: 35%;
+    height: 5in;
+    width: 5in;
+    background-color: rgb(0, 140, 255);
+    float: left;
+    color: white;
+}
+
+.inner {
+    padding-top: 120px;
+    padding-left: 24%;
+    display: block;
+    gap: 3px;
+
+}
+
+#Mybutton {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 250px;
+    height: 40px;
+    background: white;
+    border: 1px solid rgb(152, 179, 202);
+    margin-top: 22px;
+    color: black;
+    font-size: 18px;
+    float: left;
+    border-radius: 8px;
+    transition: ease-in 0.2s;
+
+}
+
+#Mybutton:hover {
+    background: rgb(12, 95, 167);
+    color: white;
+    border-color: white;
+
+}
+
+#Mybutton:active {
+    transition: ease-out 0.5s;
+    background: rgb(65, 148, 220);
+
+}
+
+.Name {
+    margin-top: 10px;
+}
+
+#Input {
+    height: 30px;
+    width: 250px;
+    border-radius: 8px;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    transition: ease-out 0.5s;
+    /* background: transparent; */
+}
+
+#Input:hover {
+    border-radius: 8px;
+    border-color: black;
+}
+
+label {
+    padding-top: 5px;
+    /* display: flexbox; */
+    letter-spacing: 2px;
+}
+
+#mypassword {
+
+    height: 25px;
+    width: 250px;
+    border-radius: 8px;
+    border-color: rgb(255, 255, 255);
+    margin-top: 2px;
+    padding-top: 5px;
+    transition: ease-out 0.5s;
+
+
+}
+
+#mypassword:hover {
+    border-radius: 8px;
+    border-color: black;
+}
+
+.pass {
+    margin-top: 12px;
+
+}
+
+
+
